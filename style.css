@@ -1,0 +1,159 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'lato',sans-serif;
+    line-height: 1.8em;
+    font-weight: 400;
+    color: #A87C7C;
+}
+
+.pimg1{
+    min-height: 100%;
+    background-image: url("pag1.webp");
+    
+}
+
+.pimg2{
+    min-height: 400px;
+    background-image: url("pag2.jpg");
+    
+}
+
+.pimg3{
+    min-height: 400px;
+    background-image: url("pag3.jpg");
+    
+}
+
+
+.pimg4{
+    min-height: 400px;
+    background-image: url("pag4.jpg");
+    
+}
+
+
+
+.pimg1, .pimg2,.pimg3,.pimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.ptext1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: antiquewhite;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 27px;
+    letter-spacing: 8px;
+
+}
+
+.txt1{
+    background-color: #3E3232;
+    color: antiquewhite;
+    padding: 20px;
+}
+
+
+.sec-light{
+    background-color:#A87C7C ;
+    padding: 50px 80px;
+    text-align: center;
+    color: #3E3232;
+}
+
+.sec-light,h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.ptext2{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: antiquewhite;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 27px;
+    letter-spacing: 8px;
+
+}
+
+.txt2{
+    background-color: #3E3232;
+    color: antiquewhite;
+    padding: 20px;
+}
+
+
+.sec-dark{
+    background-color:#3E3232 ;
+    padding: 50px 80px;
+    text-align: center;
+    color: #A87C7C;
+}
+
+.sec-dark,h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+.ptext3{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: antiquewhite;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 27px;
+    letter-spacing: 8px;
+
+}
+
+.txt3{
+    color: antiquewhite;
+    padding: 20px;
+}
+
+
+.sec-dark{
+    background-color:#3E3232 ;
+    padding: 50px 80px;
+    text-align: center;
+    color: #A87C7C;
+}
+
+.sec-dark,h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.ptext4{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: antiquewhite;
+    top: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 8px;
+    letter-spacing: 8px;
+
+}
+
+.txt4{
+    color: antiquewhite;
+    padding: 20px;
+}
