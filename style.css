@@ -43,13 +43,20 @@ html,body{
 
 }
 
+
+.txt1,.txt2,.txt3,.txt4,h2{
+    text-transform: uppercase;
+}
+
+
+
+
 .ptext1{
     position: absolute;
     top: 50%;
     width: 100%;
     color: antiquewhite;
     text-align: center;
-    text-transform: uppercase;
     font-size: 27px;
     letter-spacing: 8px;
 
@@ -59,6 +66,7 @@ html,body{
     background-color: #3E3232;
     color: antiquewhite;
     padding: 20px;
+    
 }
 
 
@@ -70,7 +78,7 @@ html,body{
 }
 
 .sec-light,h2{
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align: center;
 }
 
@@ -81,7 +89,6 @@ html,body{
     width: 100%;
     color: antiquewhite;
     text-align: center;
-    text-transform: uppercase;
     font-size: 27px;
     letter-spacing: 8px;
 
@@ -91,6 +98,7 @@ html,body{
     background-color: #3E3232;
     color: antiquewhite;
     padding: 20px;
+    
 }
 
 
@@ -102,7 +110,7 @@ html,body{
 }
 
 .sec-dark,h2{
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align: center;
 }
 
@@ -114,7 +122,6 @@ html,body{
     width: 100%;
     color: antiquewhite;
     text-align: center;
-    text-transform: uppercase;
     font-size: 27px;
     letter-spacing: 8px;
 
@@ -123,6 +130,7 @@ html,body{
 .txt3{
     color: antiquewhite;
     padding: 20px;
+
 }
 
 
@@ -134,7 +142,7 @@ html,body{
 }
 
 .sec-dark,h2{
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align: center;
 }
 
@@ -146,14 +154,19 @@ html,body{
     color: antiquewhite;
     top: 80%;
     text-align: center;
-    text-transform: uppercase;
     font-weight: 300;
     font-size: 8px;
     letter-spacing: 8px;
 
 }
 
+
 .txt4{
     color: antiquewhite;
     padding: 20px;
+}
+
+p{
+    text-transform: capitalize;
+
 }
